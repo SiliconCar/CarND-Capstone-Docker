@@ -10,7 +10,7 @@ RUN sh -c 'echo "deb http://packages.ros.org/ros/ubuntu xenial main" > /etc/apt/
   apt-get install -y \
     python-pip \
     ros-kinetic-desktop-full && \
-
+  apt-get -o Dpkg::Options::="--force-confmiss" install -y --reinstall netbase && \ 
 # cleanup
   apt-get clean && \
   rm -rf \
