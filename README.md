@@ -22,13 +22,13 @@ cd /home/user/capstone_source
 ```
 2.Download the script into your project
 ```bash
-wget https://raw.githubusercontent.com/SiliconCar/CarND-Capstone-Docker/master/utils/run.sh && chmod u+x run.sh
+wget https://raw.githubusercontent.com/SiliconCar/CarND-Capstone-Docker/master/utils/run_cuda.sh && chmod u+x run_cuda.sh
 ```
 
 ## Usage
 1.Start the script
 ```bash
-./run.sh
+./run_cuda.sh
 ```
 2.You're now within the container and the current directory contains the source code of your project. You can compile and run your project:
 ```bash
